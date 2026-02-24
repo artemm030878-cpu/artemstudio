@@ -1715,5 +1715,30 @@ html.cursor-v3-on *{
   }
 }
 
+/* ================= DISABLE ANIMATIONS ON MOBILE ================= */
+
+@media (max-width: 768px){
+
+  *,
+  *::before,
+  *::after{
+    animation: none !important;
+    transition: none !important;
+  }
+
+  html{
+    scroll-behavior: auto !important;
+  }
+
+}
+
+/* Hide marquee on mobile */
+
+@media (max-width: 768px){
+  .marquee{
+    display: none !important;
+  }
+}
+
 html { scroll-behavior: smooth; }
 

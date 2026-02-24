@@ -1,6 +1,11 @@
 const burger = document.querySelector(".burger");
 const mobileMenu = document.querySelector("#mobileMenu");
 
+// Disable heavy effects on mobile
+if (window.innerWidth <= 768) {
+  document.documentElement.classList.add("mobile-no-anim");
+}
+
 function closeMenu() {
   burger.classList.remove("is-open");
   mobileMenu.classList.remove("is-open");
