@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artem Design — Портфолио</title>
+  <link rel="stylesheet" href="style.css" />
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="180.png">
+<link rel="icon" type="image/png" sizes="512x512" href="512.png">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="logo">ARTEM DESIGN</div>
+
+      <nav class="nav">
+        <a href="#about">Обо мне</a>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#process">Процесс</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+
+      <a href="#contacts" class="btn btn--small">Обсудить проект</a>
+
+      <div class="burger">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+<!-- Mobile menu -->
+<div class="mobileMenu" id="mobileMenu">
+  <nav class="mobileMenu__nav">
+    <a href="#about">Обо мне</a>
+    <a href="#services">Услуги</a>
+    <a href="#portfolio">Портфолио</a>
+    <a href="#process">Процесс</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+</div>
+
+
+  <!-- ================= MAIN ================= -->
+
+  <main id="page">
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+      <div class="container hero__inner">
+
+        <!-- Фото -->
+        <div class="hero__photo">
+          <img src="photo.png" alt="Артем дизайнер">
+        </div>
+
+        <!-- Контент -->
+        <div class="hero__content">
+          <p class="hero__subtitle">
+            Карточки для маркетплейсов • Дизайн сайтов • Создание сайтов
+          </p>
+
+          <h1 class="hero__title">
+            Я создаю дизайн,<br>
+            который продаёт
+          </h1>
+
+          <p class="hero__desc">
+            Больше двух лет опыта работы. Делаю карточки, дизайн, сайты и верстаю их на Tilda.
+            Работаю быстро, системно и с фокусом на результат.
+          </p>
+
+          <div class="hero__buttons">
+            <a href="#portfolio" class="btn">Смотреть работы</a>
+            <a href="#contacts" class="btn btn--outline">Связаться</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+<!-- ================= MARQUEE ================= -->
+
+<section class="marquee">
+  <div class="marquee__wrapper">
+    <div class="marquee__track">
+      <span>DESIGN</span>
+      <span>DESIGN</span>
+      <span>DESIGN</span>
+      <span>DESIGN</span>
+      <span>DESIGN</span>
+      <span>DESIGN</span>
+      <span>DESIGN</span>
+      <span>DESIGN</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="container">
+
+    <div class="about__inner">
+
+      <!-- LEFT -->
+      <div class="about__left">
+        <h2 class="sectionTitle">Обо мне</h2>
+
+        <p class="about__text">
+          Я дизайнер, который делает визуал не “красиво ради красиво”, а так, чтобы он работал:
+          цеплял внимание, вёл по смыслу и помогал продавать.
+        </p>
+
+        <p class="about__text">
+          За 2 года я прокачал быстрый и понятный процесс: от идеи и структуры — до финального дизайна
+          и вёрстки на Tilda.
+        </p>
+
+        <div class="about__badges">
+          <span class="chip">2+ года опыта</span>
+          <span class="chip">Карточки маркетплейсов</span>
+          <span class="chip">Дизайн сайтов</span>
+          <span class="chip">Tilda / Zero Block</span>
+        </div>
+
+        <div class="about__cta">
+          <a href="#portfolio" class="btn">Посмотреть кейсы</a>
+          <a href="#contacts" class="btn btn--outline">Написать мне</a>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="about__right">
+        <div class="stats">
+          <div class="stat">
+            <div class="stat__num">2+</div>
+            <div class="stat__label">года в дизайне</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat__num">3</div>
+            <div class="stat__label">ключевых направления</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat__num">Фокус</div>
+            <div class="stat__label">на конверсии и смысле</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat__num">Скорость</div>
+            <div class="stat__label">и понятный процесс</div>
+          </div>
+        </div>
+
+        <div class="about__card">
+          <p class="about__quote">
+            «Я крутой дизайнер — потому что думаю не только про визуал,
+            а про то, как он будет работать на задачу».
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services" id="services">
+  <!-- Space background -->
+  <div class="space" aria-hidden="true">
+    <div class="space__stars"></div>
+    <div class="space__planet space__planet--a" data-parallax="16"></div>
+    <div class="space__planet space__planet--b" data-parallax="28"></div>
+    <div class="space__planet space__planet--c" data-parallax="40"></div>
+  </div>
+
+  <div class="container">
+
+    <div class="services__head">
+      <h2 class="sectionTitle">Услуги</h2>
+      <p class="services__sub">
+        Три направления, в которых я реально силён: упаковка для маркетплейсов, дизайн сайтов и вёрстка на Tilda.
+      </p>
+    </div>
+
+    <div class="services__grid">
+
+      <article class="serviceCard">
+        <div class="serviceCard__top">
+          <div class="serviceCard__icon">MP</div>
+          <h3 class="serviceCard__title">Карточки для маркетплейсов</h3>
+        </div>
+
+        <ul class="serviceCard__list">
+          <li>Инфографика и упаковка карточки</li>
+          <li>Визуальная структура + смысловые акценты</li>
+          <li>Стили под нишу и аудиторию</li>
+          <li>Подготовка под требования площадок</li>
+        </ul>
+
+        <div class="serviceCard__bottom">
+          <span class="serviceCard__meta">Срок: от 1–3 дней</span>
+          <a href="#contacts" class="serviceCard__link">Обсудить →</a>
+        </div>
+      </article>
+
+      <article class="serviceCard">
+        <div class="serviceCard__top">
+          <div class="serviceCard__icon">WEB</div>
+          <h3 class="serviceCard__title">Дизайн сайтов</h3>
+        </div>
+
+        <ul class="serviceCard__list">
+          <li>Структура, прототип и UX-логика</li>
+          <li>Визуальная система (типографика/сетка)</li>
+          <li>Дизайн лендингов и многостраничников</li>
+	  <li>Адаптивный дизайн</li>
+        </ul>
+
+        <div class="serviceCard__bottom">
+          <span class="serviceCard__meta">Срок: от 1–7 дней</span>
+          <a href="#contacts" class="serviceCard__link">Обсудить →</a>
+        </div>
+      </article>
+
+      <article class="serviceCard">
+        <div class="serviceCard__top">
+          <div class="serviceCard__icon">TD</div>
+          <h3 class="serviceCard__title">Вёрстка на Tilda</h3>
+        </div>
+
+        <ul class="serviceCard__list">
+          <li>Zero Block + адаптив под все экраны</li>
+          <li>Анимации и аккуратные микровзаимодействия</li>
+          <li>Подключение форм и базовая SEO-настройка</li>
+          <li>Сборка и публикация проекта</li>
+        </ul>
+
+        <div class="serviceCard__bottom">
+          <span class="serviceCard__meta">Срок: от 2–7 дней</span>
+          <a href="#contacts" class="serviceCard__link">Обсудить →</a>
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= WORKS (BLOCK 4) ================= -->
+<section class="works" id="portfolio">
+  <div class="container">
+
+    <div class="works__head">
+      <h2 class="sectionTitle">Примеры работ</h2>
+      <p class="works__sub">
+        3 направления: сайты на Tilda, дизайн макета и карточки для маркетплейсов.
+      </p>
+    </div>
+
+    <!-- Category 1 -->
+    <div class="worksCat" data-animate>
+      <div class="worksCat__top">
+        <h3 class="worksCat__title">Сайты на Tilda</h3>
+        <p class="worksCat__desc">Вёрстка, адаптив, анимации, сборка и публикация.</p>
+      </div>
+
+      <div class="worksGrid">
+        <a class="workItem" href="https://www.behance.net/gallery/243150805/dizajn-sajta-kafe-studija-vkusa" target="_blank" data-animate-item>
+          <div class="workItem__img">
+            <img src="Djeans.png" alt="Tilda — проект 1">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Студия вукса</div>
+            <div class="workItem__tag">Интернет магазин</div>
+          </div>
+        </a>
+
+        <a class="workItem" href="https://www.behance.net/gallery/243145921/dizajn-sajta-centr-razvitija-detej" target="_blank" data-animate-item>
+          <div class="workItem__img">
+            <img src="djul.png" alt="Tilda — проект 2">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Джулия кидс</div>
+            <div class="workItem__tag">Многостраничник</div>
+          </div>
+        </a>
+
+        <a class="workItem" href="https://www.behance.net/gallery/243154373/dizajn-sajta-(Landing-page)-banketnyj-zal-TeraSSe" target="_blank" data-animate-item>
+          <div class="workItem__img">
+            <img src="tera.png" alt="Tilda — проект 3">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Терасса</div>
+            <div class="workItem__tag">Одностраничник</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Category 2 -->
+    <div class="worksCat" data-animate>
+      <div class="worksCat__top">
+        <h3 class="worksCat__title">Дизайн макета</h3>
+        <p class="worksCat__desc">UX-структура, типографика, визуальная система.</p>
+      </div>
+
+      <div class="worksGrid">
+        <a class="workItem" href="#contacts" data-animate-item>
+          <div class="workItem__img">
+            <img src="taro.png" alt="Макет — проект 1">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Елена таро</div>
+            <div class="workItem__tag">Figma</div>
+          </div>
+        </a>
+
+        <a class="workItem" href="https://www.behance.net/gallery/244502599/dizajn-sajta-vejp-shop" target="_blank" data-animate-item>
+          <div class="workItem__img">
+            <img src="par.png" alt="Макет — проект 2">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Паросенок.рф</div>
+            <div class="workItem__tag">Figma</div>
+          </div>
+        </a>
+
+        <a class="workItem" href="#contacts" data-animate-item>
+          <div class="workItem__img">
+            <img src="platform.png" alt="Макет — проект 3">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Платформ</div>
+            <div class="workItem__tag">Figma</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Category 3 -->
+    <div class="worksCat" data-animate>
+      <div class="worksCat__top">
+        <h3 class="worksCat__title">Карточки для маркетплейсов</h3>
+        <p class="worksCat__desc">Инфографика, смысловые акценты, упаковка карточки.</p>
+      </div>
+
+      <div class="worksGrid">
+        <a class="workItem" href="#contacts" data-animate-item>
+          <div class="workItem__img">
+            <img src="polaris.png" alt="Карточки — проект 1">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Кофемашина</div>
+            <div class="workItem__tag">WB / Ozon</div>
+          </div>
+        </a>
+
+        <a class="workItem" href="#contacts" data-animate-item>
+          <div class="workItem__img">
+            <img src="dj.png" alt="Карточки — проект 2">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Джинсы</div>
+            <div class="workItem__tag">WB / Ozon</div>
+          </div>
+        </a>
+
+        <a class="workItem" href="#contacts" data-animate-item>
+          <div class="workItem__img">
+            <img src="bedj.png" alt="Карточки — проект 3">
+          </div>
+          <div class="workItem__meta">
+            <div class="workItem__name">Бейджик</div>
+            <div class="workItem__tag">WB / Ozon</div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= PROCESS (BLOCK 5 / NEW) ================= -->
+<section class="process2" id="process">
+  <div class="container">
+
+    <div class="process2__head" data-animate>
+      <h2 class="sectionTitle">Как я работаю</h2>
+      <p class="process2__sub">
+        Прозрачный процесс: от первого контакта до готового результата.
+      </p>
+    </div>
+
+    <div class="process2__row" data-animate>
+
+      <!-- 01 -->
+      <article class="pStep" data-animate-item>
+        <div class="pStep__line"></div>
+
+        <div class="pStep__iconWrap">
+          <div class="pStep__icon">
+            <svg viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M4 20c1.8-4.5 13.2-4.5 16 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="pStep__num">01</div>
+        </div>
+
+        <div class="pStep__cap">Первый контакт</div>
+        <div class="pStep__text">
+          Знакомимся, оцениваем цели и задачи проекта, собираем вводные и формируем ТЗ.
+        </div>
+      </article>
+
+      <!-- 02 -->
+      <article class="pStep" data-animate-item>
+        <div class="pStep__line"></div>
+
+        <div class="pStep__iconWrap">
+          <div class="pStep__icon">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M4 19h16" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M6 15l4-4 4 3 4-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="pStep__num">02</div>
+        </div>
+
+        <div class="pStep__cap">Анализ ниши</div>
+        <div class="pStep__text">
+          Изучаю конкурентов и ЦА, на основе данных формирую структуру и предложения по решению.
+        </div>
+      </article>
+
+      <!-- 03 -->
+      <article class="pStep" data-animate-item>
+        <div class="pStep__line"></div>
+
+        <div class="pStep__iconWrap">
+          <div class="pStep__icon">
+            <svg viewBox="0 0 24 24" fill="none">
+              <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M8 12l3 3 5-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="pStep__num">03</div>
+        </div>
+
+        <div class="pStep__cap">Подтверждаем план</div>
+        <div class="pStep__text">
+          Фиксируем объём работ, сроки и порядок. Согласуем этапы и точки контроля.
+        </div>
+      </article>
+
+      <!-- 04 -->
+      <article class="pStep" data-animate-item>
+        <div class="pStep__line"></div>
+
+        <div class="pStep__iconWrap">
+          <div class="pStep__icon">
+            <svg viewBox="0 0 24 24" fill="none">
+              <rect x="3" y="4" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M3 8h18" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M7 12h4" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M7 15h8" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </div>
+          <div class="pStep__num">04</div>
+        </div>
+
+        <div class="pStep__cap">Прототип / структура</div>
+        <div class="pStep__text">
+          Делаю прототип с логикой и иерархией. Показываю путь пользователя и ключевые блоки.
+        </div>
+      </article>
+
+      <!-- 05 -->
+      <article class="pStep" data-animate-item>
+        <div class="pStep__line"></div>
+
+        <div class="pStep__iconWrap">
+          <div class="pStep__icon">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path d="M12 3l7 7-7 11-7-11 7-7z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <path d="M9 10h6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="pStep__num">05</div>
+        </div>
+
+        <div class="pStep__cap">Дизайн & финал</div>
+        <div class="pStep__text">
+          Собираю дизайн. Довожу до идеала, передаю файлы или верстаю на Tilda.
+        </div>
+      </article>
+
+    </div>
+
+    <div class="process2__cta" data-animate>
+      <div class="process2__ctaInner">
+        <div>
+          <div class="process2__ctaTitle">Готов обсудить твою задачу</div>
+          <div class="process2__ctaText">Напиши — предложу лучший формат и сроки.</div>
+        </div>
+        <div class="process2__ctaBtns">
+          <a class="btn" href="#contacts">Обсудить проект</a>
+          <a class="btn btn--outline" href="#portfolio">Смотреть работы</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CONTACT / CTA (WOW) ================= -->
+<section class="contact wow" id="contacts">
+  <div class="container">
+
+    <div class="contact__bgText" aria-hidden="true">LET’S WORK</div>
+
+    <div class="contact__inner">
+
+      <!-- LEFT -->
+      <div class="contact__left" data-animate>
+        <div class="contact__kicker">Связаться</div>
+
+        <h2 class="contact__title">
+          Готов сделать проект,<br>
+          который будет <span>работать</span>?
+        </h2>
+
+        <p class="contact__text">
+          Напиши мне — разберём задачу, предложу лучший формат и сроки.
+          Отвечаю быстро.
+        </p>
+
+        <div class="contact__actions">
+          <a href="https://vk.com/stillarten" target="_blank" class="contact__mainBtn">
+            Обсудить проект
+          </a>
+          <div class="contact__note">Обычно отвечаю в течение 10–30 минут</div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="contact__right" data-animate>
+
+        <a href="https://t.me/volvoza4to" target="_blank" class="contactCard contactCard--tg">
+          <div class="contactCard__icon">
+            <span>✈</span>
+          </div>
+          <div class="contactCard__body">
+            <div class="contactCard__top">
+              <div class="contactCard__title">Telegram</div>
+              <div class="contactCard__pill">Быстро</div>
+            </div>
+            <div class="contactCard__desc">@volvoza4to</div>
+          </div>
+        </a>
+
+        <a href="https://wa.me/79181481639" target="_blank" class="contactCard contactCard--wa">
+          <div class="contactCard__icon">
+            <span>WA</span>
+          </div>
+          <div class="contactCard__body">
+            <div class="contactCard__top">
+              <div class="contactCard__title">WhatsApp</div>
+              <div class="contactCard__pill">Удобно</div>
+            </div>
+            <div class="contactCard__desc">+7 (918) 148-16-39</div>
+          </div>
+        </a>
+
+        <a href="https://vk.com/stillarten" target="_blank" class="contactCard contactCard--vk">
+          <div class="contactCard__icon">
+            <span>VK</span>
+          </div>
+          <div class="contactCard__body">
+            <div class="contactCard__top">
+              <div class="contactCard__title">VK</div>
+              <div class="contactCard__pill">Практично</div>
+            </div>
+            <div class="contactCard__desc">vk.com/stillarten</div>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER (MINIMAL) ================= -->
+<footer class="footerMinimal" id="footer">
+  <div class="container">
+
+    <div class="footerMinimal__top">
+
+      <!-- LEFT -->
+      <div class="footerMinimal__brand">
+        <div class="footerMinimal__name">
+          ARTEM DESIGN
+        </div>
+
+        <div class="footerMinimal__desc">
+          Карточки для маркетплейсов • Дизайн сайтов • Tilda
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="footerMinimal__nav">
+        <a href="#about">Обо мне</a>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Работы</a>
+        <a href="#process">Процесс</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+
+    </div>
+
+    <div class="footerMinimal__line"></div>
+
+    <div class="footerMinimal__bottom">
+      <div class="footerMinimal__copy">
+        © <span id="year"></span> • Сделано мной
+      </div>
+
+      <div class="footerMinimal__social">
+        <a href="https://t.me/volvoza4to" target="_blank">Telegram</a>
+        <a href="https://wa.me/79181481639" target="_blank">WhatsApp</a>
+        <a href="https://vk.com/stillarten" target="_blank">VK</a>
+      </div>
+
+      <button class="footerMinimal__up" aria-label="Наверх">↑</button>
+    </div>
+
+  </div>
+</footer>
+
+
+  </main>
+
+
+<!-- Cursor v3 -->
+<div class="cursorV3" aria-hidden="true"></div>
+
+
+  <!-- ================= JS ================= -->
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
